@@ -1,0 +1,209 @@
+.trigger {
+  padding: 0 24px;
+  font-size: 18px;
+  line-height: 64px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.trigger:hover {
+  color: #1890ff;
+}
+.site-layout .site-layout-background {
+  background: #fff;
+}
+
+.logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.3);
+}
+.company-card {
+  width: 720px;
+  height: 228px;
+  border-radius: 10px;
+  background-color: white;
+  margin-top: 37px;
+  display: flex;
+  margin-bottom: 24px;
+}
+.img-section {
+  width: 157.28px;
+  height: 156.31px;
+  margin: 36.34px 52.36px 35.42px 44.36px;
+  border-radius: 50%;
+}
+.organisation-name {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+}
+.organisation-name label {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+  /* identical to box height */
+
+  color: #2a2ea4;
+  margin-bottom: 13px;
+}
+.organisation-name input {
+  width: 442px;
+  border-radius: 10px;
+  font-size: large;
+}
+input {
+  height: 56px;
+  font-size: large;
+}
+.organisation-vision .h5 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+  color: #242e3e;
+  margin-top: 23px;
+}
+.organisation-vision .h5 {
+  width: 450px;
+}
+.organisation-vision label {
+  margin-top: 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 1px;
+
+  text-transform: capitalize;
+
+  color: rgba(36, 46, 62, 0.5);
+}
+label {
+  font-family: sans-serif, sans-serif !important;
+}
+.organisation-vision input {
+  margin-top: 0px;
+  width: 719px;
+  border-radius: 10px;
+  font-size: large;
+  margin-bottom: 29px;
+}
+
+.organization-address .h5 {
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-size: 22px;
+  line-height: 26px;
+  color: #242e3e;
+  margin-top: 23px;
+}
+.organization-address label {
+  margin-top: 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 1px;
+
+  text-transform: capitalize;
+
+  color: rgba(36, 46, 62, 0.5);
+}
+.organization-address {
+  width: 719px;
+}
+.organization-address input {
+  margin-top: 0px;
+  width: 100%;
+  border-radius: 10px;
+  font-size: large;
+  margin-bottom: 29px;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+}
+input:focus,
+select:focus {
+  box-shadow: 0 0 0 0.1rem #6b51df;
+}
+.contact-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.contact select {
+  margin-top: 0px;
+  width: 100%;
+  height: 56px;
+  border-radius: 4px;
+  font-size: large;
+  margin-bottom: 29px;
+  padding-right: 5px;
+  border: none;
+  outline: 0 none;
+}
+.contact select:focus {
+  border: 1px solid #6b51df;
+}
+.contact select:hover {
+  border: 1px solid #6b51df;
+}
+.ant-layout-sider-dark {
+  background-color: #fff !important;
+}
+
+.text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+  display: flex;
+  align-items: flex-end;
+}
+.dashboard-logo {
+  position: relative;
+}
+.dashboard-logo .svg {
+  position: absolute;
+  z-index: 10;
+  margin-top: 40px;
+  margin-left: 52px;
+}
+.dashboard-logo .logo-circle {
+  position: absolute;
+  width: 43px;
+  height: 39px;
+  border-radius: 50%;
+  background: #343957;
+  z-index: 1;
+  margin-left: 33px;
+  margin-top: 32px;
+}
+.header-section {
+  display: flex;
+  height: 89px !important;
+  background: #ffffff !important;
+  align-items: center;
+}
+.search-section {
+  display: flex;
+  align-items: center;
+}
+.search-section .h5 {
+  margin-top: 12px;
+  margin-left: 42px;
+  width: 350px;
+}
+.search-section input {
+  border: none;
+}
+.bell-section {
+  display: flex;
+  margin-left: 455px;
+}
+.bell-section .bell {
+  margin-right: 44.12px;
+}

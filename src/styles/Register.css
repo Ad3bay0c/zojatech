@@ -1,0 +1,268 @@
+@media screen and (max-width: 480px) {
+  .title2 {
+    display: none;
+  }
+  .title {
+    display: block;
+  }
+  input.submit2 {
+    display: none;
+  }
+
+  input.submit {
+    display: block;
+  }
+
+  input {
+    margin: 0px 36px 24px 34px;
+    width: 80%;
+    padding: 15px;
+    background: #ffffff;
+    border: 1px solid #d1dcde;
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
+
+  input:focus {
+    box-shadow: 0 0 0 0.1rem #6b51df;
+    border-radius: 4px;
+    outline: 0 none;
+  }
+
+  label {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+
+    text-transform: capitalize;
+
+    color: rgba(36, 46, 62, 0.5);
+  }
+  .link {
+    color: #6b51df;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 5px;
+  }
+  .card1 {
+    position: absolute;
+    margin: 98px 19px 94px 17px;
+    width: 389px;
+    height: 732px;
+
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.02);
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+
+  .logo {
+    width: 76.06px;
+    height: 43px;
+    margin: 36px 146.2px 18px 166.74px;
+
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+    /* identical to box height */
+
+    color: #131111;
+  }
+  .title {
+    width: 327px;
+    height: 28px;
+    margin: 0px 38px 42px 24px;
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #000000;
+  }
+  label.organizationLabel {
+    margin: 42px 166px 7px 34px;
+  }
+
+  label.emailLabel {
+    margin: 0px 170px 7px 34px;
+  }
+
+  label.passwordLabel {
+    margin: 0px 166px 7px 34px;
+  }
+  label.confirmLabel {
+    margin: 0px 170px 7px 34px;
+  }
+  input.submit {
+    margin: 0px 37px 16px 32px;
+
+    background: #6b51df;
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: bold;
+  }
+  .footer {
+    margin: 0px 45px 27px 32px;
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+
+    color: rgba(36, 46, 62, 0.5);
+  }
+}
+@media screen and (min-width: 481px) {
+  .title2 {
+    display: block;
+  }
+  .title {
+    display: none;
+  }
+  input.submit2 {
+    display: block;
+  }
+
+  input.submit {
+    display: none;
+  }
+  input {
+    padding: 15px;
+    width: 80%;
+    background: #ffffff;
+    border: 1px solid #d1dcde;
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
+  input:focus {
+    box-shadow: 0 0 0 0.1rem #6b51df;
+    border-radius: 4px;
+    outline: 0 none;
+  }
+  label {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+
+    text-transform: capitalize;
+
+    color: rgba(36, 46, 62, 0.5);
+  }
+  .link {
+    color: #6b51df;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 5px;
+  }
+  .link:hover {
+    color: #6b51df;
+  }
+  label.organizationLabel {
+    margin: 0px 497px 7px 66px;
+  }
+  input.organization {
+    margin: 0px 69px 24px 65px;
+  }
+  label.emailLabel {
+    margin: 0px 497px 7px 66px;
+  }
+
+  input.email {
+    margin: 0px 69px 24px 65px;
+  }
+
+  label.passwordLabel {
+    margin: 0px 497px 7px 66px;
+  }
+
+  input.password {
+    margin: 0px 69px 24px 65px;
+  }
+  label.confirmLabel {
+    margin: 0px 497px 7px 66px;
+  }
+
+  input.confirm {
+    margin: 0px 69px 24px 65px;
+  }
+  input.submit2 {
+    margin: 0px 68px 19px 66px;
+
+    background: #6b51df;
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: bold;
+  }
+  .footer {
+    margin: 0px 378px 32px 66px;
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+
+    color: rgba(36, 46, 62, 0.5);
+  }
+
+  .card1 {
+    margin: 100px 352px 128px 335px;
+    width: 747px;
+    height: 724px;
+    /* left: 341px;
+    top: 106px; */
+
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.02);
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+
+  .logo {
+    width: 76.06px;
+    height: 43px;
+    margin: 29px 326px 25px 344px;
+
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+    /* identical to box height */
+
+    color: #131111;
+  }
+  .title2 {
+    width: 275px;
+    height: 28px;
+    margin: 0px 232px 25px 240px;
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+  }
+}

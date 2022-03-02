@@ -1,0 +1,214 @@
+.container {
+  position: absolute;
+  left: 0px;
+  width: 100%;
+
+  background: #f3f4f9;
+}
+.card {
+  position: absolute;
+  width: 389px;
+  /* height: 546px; */
+ 
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.02);
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.logo {
+  margin-top: 34px;
+  margin-left: 166.74px;
+  margin-right: 146.2px;
+  margin-bottom: 0;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 43px;
+  width: 76.06px;
+  height: 43px;
+}
+
+.title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  margin: 18px 63px 0 62px;
+  width: 264px;
+  height: 28px;
+}
+label {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: rgba(36, 46, 62, 0.5);
+}
+label.email {
+  margin: 42px 216px 4px 34px;
+}
+label.password {
+  margin: 24px 36px 0 34px;
+}
+input {
+  background: #ffffff;
+  border: 1px solid #d1dcde;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+input.email-input,
+input.password-input {
+  height: 56px;
+  width: 319px;
+  margin: 7px 36px 0 34px;
+}
+
+input[type="checkbox"] {
+  margin-right: 2px;
+  height: 18px;
+  width: 18px;
+}
+
+.fp-section {
+  margin: 23px 36px 0 34px;
+  display: flex;
+  align-content: center;
+}
+
+.remember {
+  display: flex;
+  justify-content: space-between;
+}
+
+.remember p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  color: rgba(36, 46, 62, 0.5);
+}
+.rm {
+  margin-right: 11px;
+}
+.fp {
+  margin-left: 11px;
+  margin-right: 0px;
+}
+.signin {
+  background: #6b51df;
+  border-radius: 4px;
+  width: 320px;
+  height: 56px;
+  margin: 20px 32px 4px 37px;
+}
+input.signin {
+  color: #ffffff;
+  font-weight: bold;
+}
+.signin p {
+  position: absolute;
+  text-align: center;
+  margin: 15px 86px 17px 97px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  height: 24px;
+  width: 137px;
+}
+.account {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  margin: 16px 53px 27px 16px;
+  width: 320px;
+  height: 24px;
+}
+.account p {
+  color: #6b51df;
+}
+
+@media screen and (min-width: 429px) {
+  body {
+    background: #f3f4f9;
+    width: 10%;
+
+
+  }
+  .container {
+    position: relative;
+  }
+  .card {
+    position: absolute;
+    overflow: hidden;
+    width: 45rem;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    margin-left: 20rem;
+
+  }
+  .logo {
+    height: 43px;
+    width: 77px;
+    margin: 44px 326px 25px 344px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+  }
+  .title {
+    margin: 0px 250px 25px 240px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+  }
+  label.email {
+    margin: 0px 628px 7px 66px;
+  }
+  label.password {
+    margin: 0px 628px 7px 66px;
+  }
+
+  input.email-input {
+    height: 56px;
+    width: 613px;
+    margin: 0px 628px 22px 66px;
+  }
+  input.password-input {
+    height: 56px;
+    width: 613px;
+    margin: 0px 628px 17px 66px;
+  }
+  input[type="checkbox"] {
+  }
+
+  .fp-section {
+    margin: 0px 36px 0 66px;
+    display: flex;
+    align-content: center;
+  }
+
+  .signin {
+    margin: 0px 72px 19px 62px;
+    height: 56px;
+    width: 613px;
+    border-radius: 4px;
+  }
+  .signin p {
+    position: absolute;
+    height: 24px;
+    width: 69px;
+    margin: 16px 276px 16px 268px;
+  }
+  .account {
+    height: 24px;
+    width: 289px;
+    margin: 0px 396px 19px 62px;
+  }
+}
